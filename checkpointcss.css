@@ -1,0 +1,97 @@
+.logo{
+font-family: pacifico;
+}
+.list{
+    font-family: ubuntu;
+    display: inline;
+    text-align: center;
+    padding-left: 50px;
+} 
+.olist{
+    padding-left: 100px;
+}
+.header{
+    background-color: #044040;
+    color: aliceblue;
+    height: 60px;
+    padding-top: 15px;
+}
+main{
+    background-color: #591C21;
+    color: aliceblue;
+    ;
+}
+*{
+    margin: 0px;
+}
+.partitle{
+    
+    font-family:kanit ;
+    font-size: 80px;
+    text-align: left;
+}
+.para{
+    font-family: cairo;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.intro{
+    padding-left: 200px;
+}
+.button{
+    border: 4px solid #044040;
+    font-size: 15px;
+    font-family: montserrat;
+    color: aliceblue;
+    background: none;
+    height: 45px;
+}
+.button:hover{
+    color:aquamarine ;
+}
+.button::before{
+    top: 0;
+border-radius: 0 0 50% 50%;
+content: "";
+position: absolute;
+left: 0;
+width: 100%;
+height: 0%;
+background:#591C21;
+z-index: -1;
+transition: 0.8s;
+height: 18  0%;
+}
+.tablem{
+    padding-left: 28%;
+}
+.tablema{
+    width: 650px;
+    height: 500px;
+    
+}
+.item{
+    background-color: #044040;
+    font-family:roboto;
+}
+.footer{
+    background-color: #044040;
+}
+.fo{
+display: inline;
+}
+.fo1{
+padding-left: 275px;
+font-family: cairo;
+font-size: 40px;
+color: aliceblue;
+}
+.fo2{
+padding-left: 500px;
+}
+.fo3{
+padding-left: 350px;
+}
+.butt{
+    padding-left: 575px;
+}
